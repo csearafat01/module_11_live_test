@@ -56,7 +56,7 @@ class _MyAppState extends State<WeatherApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Weather Information'),
+          title: const Text('Weather Info App'),
         ),
         body: ListView.builder(
           itemCount: weatherData.length,
